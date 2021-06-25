@@ -16,7 +16,7 @@ def send_mail(name, pic):
 
     msg['From'] = sender
     msg['To'] = reciever
-    msg['Subject'] = "Subject of the Mail"
+    msg['Subject'] = "Alert Check Mail"
 
     body = '''
     Hi,
